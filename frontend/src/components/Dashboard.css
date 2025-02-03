@@ -1,0 +1,105 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+.charts {
+  display: flex;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+.p{
+  padding-right: 200px;
+}
+.chart-wrapper {
+  margin: 0 20px;
+  text-align: center;
+  width: 50%;
+}
+
+.pie-chart {
+  margin: auto;
+}
+
+.legend-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.legend-label {
+  font-size: 0.875rem;
+}
+
+.department-form {
+  width: 350px;
+  margin: 40px;
+  padding: 30px;
+  border: 3px solid blue;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.p{
+  margin:0px;
+}
+.form-group {
+  margin-left: 0px;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-bottom: 30px;
+}
+
+.form-input {
+  width: 300px;
+  font-size: 1rem;
+  padding: 20px;
+  display: block;
+  border: 2px solid whitesmoke;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.form-submit-btn {
+  display: block;
+  width: 340px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.form-submit-btn:hover {
+  background-color: #0056b3;
+}
